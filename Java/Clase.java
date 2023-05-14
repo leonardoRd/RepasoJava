@@ -16,4 +16,8 @@ public class Clase {
     public void setNum(int num){
         this.num = num;
     }
+
+    public void mostrarDatos(){
+        System.out.println("valor a mostrar es: " + this.num);
+    }
 }
