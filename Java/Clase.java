@@ -7,4 +7,13 @@ public class Clase {
     public Clase(int valor){
         this.num = valor;
     }
+
+    // Gets and setters
+    public int getNum(){
+        return this.num;
+    }
+
+    public void setNum(int num){
+        this.num = num;
+    }
 }
